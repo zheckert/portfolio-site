@@ -7,7 +7,7 @@ export const BodyContent = (props) => {
             <div>
                 <img className="imageTest" src={testImg} alt="This is just a test"/>
             </div>
-            <div>
+            <div className="columnCenter">
                 <h2>
                     {props.title}
                 </h2>

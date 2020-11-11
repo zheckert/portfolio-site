@@ -109,29 +109,54 @@ a:active {
 
 /* Body Classes */
 
-.bodyData {
+.bodyContentClass {
     display: flex;
+    flex-direction: column;
+    color: var(--dark);
+    padding: 2% 15% 2% 15%;
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 400px
+  }
+
+.columnCenter {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
-.bodyContentClass {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    border: 2px solid var(--dark);
-    margin: 2%
+.fullPage {
+    /* border: 2px  var(--dark) solid; */
+    /* margin: 0px 15% 0px 15% */
+    /* background-color: var(--med); */
 }
 
 .imageTest {
     /* need width to be responsive */
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* need to fix the row so the heigh is not stupid */
+    height: 700px;
+  }
+  
 /* Footer Classes */
 .footerData {
     display: flex;
     justify-content: center;
     padding: 10px 0px 10px 0px;
+    margin: 1% 0px 1% 0px
 }

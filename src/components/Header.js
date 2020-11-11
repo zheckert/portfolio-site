@@ -31,7 +31,7 @@ export const Header = () => {
                             <img className="iconAlign" height="20"src={arrow} alt="Download arrow"/>
                         </div>
                         <div>
-                            <a href="https://www.linkedin.com/in/zach-heckert-73932766/" rel="noopener noreferrer" target="_blank"><img className="iconAlign" height="20"src={linkedIn} alt="GitHub icon"/></a>
+                            <a href="https://www.linkedin.com/in/zachheckert/" rel="noopener noreferrer" target="_blank"><img className="iconAlign" height="20"src={linkedIn} alt="GitHub icon"/></a>
                         </div>
                         <div>
                             <a href="https://github.com/zheckert" rel="noopener noreferrer" target="_blank"><img className="iconAlign" height="20"src={gitHub} alt="LinkedIn icon"/></a>
