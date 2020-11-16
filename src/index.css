@@ -131,11 +131,11 @@ a:active {
     justify-content: space-around;
 }
 
-.fullPage {
-    /* border: 2px  var(--dark) solid; */
-    /* margin: 0px 15% 0px 15% */
-    /* background-color: var(--med); */
-}
+/* .fullPage {
+    border: 2px  var(--dark) solid;
+    margin: 0px 15% 0px 15% 
+    background-color: var(--med);
+} */
 
 .imageTest {
     /* need width to be responsive */

@@ -39,13 +39,13 @@ export const Header = () => {
                     </div>
                     <div className="info">
                         <div>
-                            FULL STACK
+                            <Link to="/">FULL STACK</Link>
                         </div>
                         <div>
-                            VOICEOVER
+                            <Link to="/voiceover">VOICEOVER</Link>
                         </div>
                         <div>
-                            DESIGN
+                            <Link to="/design">DESIGN</Link>
                         </div>
                     </div>
                 </div>
