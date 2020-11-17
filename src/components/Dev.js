@@ -1,5 +1,5 @@
 import React from "react"
-import {BodyContent} from "./BodyContent"
+import { BodyContent } from "./BodyContent"
 
 //3 columns? Need to determine best way to display content + implement.
 
@@ -13,7 +13,7 @@ import {BodyContent} from "./BodyContent"
 
 //Is there a way to not have the stuff below hardcoded!?
 
-export const Body = () => {
+export const Dev = () => {
     return(
         <div className="fullPage">
             <div className="row">
@@ -39,25 +39,5 @@ export const Body = () => {
             
 
             </div>
-        // <div>
-        // <div className="bodyData">
-        //     <div >
-        //         <BodyContent 
-        //             title={"Weapon Randomizer"}
-        //             bodyText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
-        //         />
-        //         <BodyContent 
-        //             title={"Weapon Randomizer"}
-        //             bodyText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
-        //         />
-        //         <BodyContent 
-        //             title={"Weapon Randomizer"}
-        //             bodyText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
-        //         />
-        //     </div>
-
-        // </div>
-        
-        // </div>
     )
 }

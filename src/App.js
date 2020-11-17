@@ -1,9 +1,7 @@
 import React from "react"
-
 import "./index.css"
-import {Header} from "./components/Header"
-import {Body} from "./components/Body"
-import {Footer} from "./components/Footer"
+import { Header, Footer, Dev, Voiceover, Design } from "./components/"
+import { Switch, Route } from "react-router-dom"
 
 export const App = () => {
     return(
@@ -11,9 +9,19 @@ export const App = () => {
         <div>
             <Header />
         </div>
-        <div>
-            <Body />
-        </div>
+
+        <Switch>
+            <Route exact path="/">
+                <Dev />
+            </Route>
+             <Route exact path="/voiceover">
+                <Voiceover />
+            </Route>
+            <Route exact path="/design">
+                <Design />
+            </Route> 
+        </Switch>
+
         <div>
             <Footer/>
         </div>

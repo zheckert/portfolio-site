@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import logo from "./other/logo.svg"
 import name from "./other/name2.svg"
 import linkedIn from "./other/linkedin.svg"
