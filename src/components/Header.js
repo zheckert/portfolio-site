@@ -1,13 +1,11 @@
 import React from "react"
 import { NavLink} from "react-router-dom"
+
 import logo from "./other/logo.svg"
 import name from "./other/name2.svg"
 import linkedIn from "./other/linkedin.svg"
 import gitHub from "./other/github.svg"
 import arrow from "./other/arrow.svg"
-
-//Need to replace "EMAIL ME" with a functional React form.
-//need to add functionality to the download arrow.
 
 export const Header = () => {
 
@@ -40,7 +38,7 @@ export const Header = () => {
                     </div>
                     <div className="info">
                         <div>
-                            <NavLink to="/" activeClassName="highlighted">FULL STACK</NavLink>
+                            <NavLink to="/" exact={true} activeClassName="highlighted">FULL STACK</NavLink>
                         </div>
                         <div>
                             <NavLink to="/voiceover" activeClassName="highlighted">VOICEOVER</NavLink>

@@ -14,10 +14,10 @@ export const App = () => {
             <Route exact path="/">
                 <Dev />
             </Route>
-             <Route exact path="/voiceover">
+             <Route path="/voiceover">
                 <Voiceover />
             </Route>
-            <Route exact path="/design">
+            <Route path="/design">
                 <Design />
             </Route> 
         </Switch>

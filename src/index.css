@@ -4,7 +4,7 @@
     --light: #6c6b75;
     --purple: #241a59;
     --white: #FFFFFF;
-    --accent: #b33636;
+    --accent: #E21B5A;
 }
 
 * {
@@ -19,15 +19,15 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color: var(--white);;
+    color: var(--white);
     text-decoration: none;
 }
 a:hover {
-    color: var(--white);;
+    color: var(--white);
     text-decoration: none;
 }
 a:active {
-    color: var(--white);;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -80,26 +80,33 @@ a:active {
         color: var(--dark);
         text-decoration: none;
     }
-    /* the below should fade in */
+    
     .info a:hover {
-        border-bottom: 2px solid var(--accent);
-        border-radius: 2px 2px 2px 2px;
+        transition: 150ms ease 100ms;
+        border-bottom: 3px solid var(--accent);
+        border-radius: 0px 0px 1.5px 1.5px;
+        
     }
 
-.highlighted {
+.info a.highlighted {
     color: var(--white);
     background-color: var(--accent);
     border-radius: 2px 2px 2px 2px;
     text-decoration: none;
 }
-    .highlighted a:visited {
-        color: var(--white);
-        text-decoration: none;
-    }
+
+.info a.highlighted:hover {
+    border-bottom: 0;
+}
+
+.info .highlighted a:visited {
+    color: var(--white);
+    text-decoration: none;
+}
 
 .info-alt {
     display: flex;
-    margin: 2px 0px 2px 0px;
+    margin: 2px 0px 1.25px 0px;
     align-items: center;
     justify-content: space-around;
     border-radius: 2px 2px 15px 2px;
@@ -137,8 +144,7 @@ a:active {
     display: flex;
     flex-direction: column;
     color: var(--dark);
-    padding: 2% 15% 2% 15%;
-    
+    padding: 2% 15% 2% 15%;    
 }
 
 .column {
