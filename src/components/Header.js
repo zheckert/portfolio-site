@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, useLocation} from "react-router-dom"
+import { NavLink} from "react-router-dom"
 import logo from "./other/logo.svg"
 import name from "./other/name2.svg"
 import linkedIn from "./other/linkedin.svg"
@@ -10,7 +10,6 @@ import arrow from "./other/arrow.svg"
 //need to add functionality to the download arrow.
 
 export const Header = () => {
-    let location = useLocation();
 
     return(
         <div className="headerPosition">
@@ -40,14 +39,14 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className="info">
-                        <div className={location.pathname === "/" && "highlighted"}>
-                            <Link to="/">FULL STACK</Link>
+                        <div>
+                            <NavLink to="/" activeClassName="highlighted">FULL STACK</NavLink>
                         </div>
-                        <div className={location.pathname === "/voiceover" && "highlighted"}>
-                            <Link to="/voiceover">VOICEOVER</Link>
+                        <div>
+                            <NavLink to="/voiceover" activeClassName="highlighted">VOICEOVER</NavLink>
                         </div>
-                        <div className={location.pathname === "/design" && "highlighted"}>
-                            <Link to="/design">DESIGN</Link>
+                        <div>
+                            <NavLink to="/design" activeClassName="highlighted">DESIGN</NavLink>
                         </div>
                     </div>
                 </div>

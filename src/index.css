@@ -68,7 +68,6 @@ a:active {
     display: flex;
     justify-content: space-around;
     margin: 4px;
-    color: var(--dark);
     font-weight: 100;
     font-size: 18px;
 }
@@ -81,11 +80,11 @@ a:active {
         color: var(--dark);
         text-decoration: none;
     }
+    /* the below should fade in */
     .info a:hover {
-        border: 1px solid var(--accent);
+        border-bottom: 2px solid var(--accent);
         border-radius: 2px 2px 2px 2px;
     }
-
 
 .highlighted {
     color: var(--white);
