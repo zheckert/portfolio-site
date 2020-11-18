@@ -4,6 +4,7 @@
     --light: #6c6b75;
     --purple: #241a59;
     --white: #FFFFFF;
+    --accent: #b33636;
 }
 
 * {
@@ -66,11 +67,36 @@ a:active {
 .info {
     display: flex;
     justify-content: space-around;
-    padding: 2px;
+    margin: 4px;
     color: var(--dark);
     font-weight: 100;
     font-size: 18px;
 }
+    .info a:link {
+        color: var(--accent);
+        padding: 3px;
+        text-decoration: none;
+    }
+    .info a:visited {
+        color: var(--dark);
+        text-decoration: none;
+    }
+    .info a:hover {
+        border: 1px solid var(--accent);
+        border-radius: 2px 2px 2px 2px;
+    }
+
+
+.highlighted {
+    color: var(--white);
+    background-color: var(--accent);
+    border-radius: 2px 2px 2px 2px;
+    text-decoration: none;
+}
+    .highlighted a:visited {
+        color: var(--white);
+        text-decoration: none;
+    }
 
 .info-alt {
     display: flex;
@@ -106,7 +132,6 @@ a:active {
     font-size: 25px;
 }
 
-
 /* Body Classes */
 
 .bodyContentClass {
@@ -131,12 +156,6 @@ a:active {
     justify-content: space-around;
 }
 
-/* .fullPage {
-    border: 2px  var(--dark) solid;
-    margin: 0px 15% 0px 15% 
-    background-color: var(--med);
-} */
-
 .imageTest {
     /* need width to be responsive */
     width: 100%;
@@ -149,7 +168,7 @@ a:active {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    /* need to fix the row so the heigh is not stupid */
+    /* need to fix the row so the height is not stupid */
     height: 700px;
   }
   

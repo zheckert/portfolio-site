@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation} from "react-router-dom"
 import logo from "./other/logo.svg"
 import name from "./other/name2.svg"
 import linkedIn from "./other/linkedin.svg"
@@ -7,10 +7,11 @@ import gitHub from "./other/github.svg"
 import arrow from "./other/arrow.svg"
 
 //Need to replace "EMAIL ME" with a functional React form.
-//When I move to grayscale, I could have an animation style that moves onto items when I hover to add a splash of color, etc.
 //need to add functionality to the download arrow.
 
 export const Header = () => {
+    let location = useLocation();
+
     return(
         <div className="headerPosition">
             <div className="headerData">
@@ -39,13 +40,13 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className="info">
-                        <div>
+                        <div className={location.pathname === "/" && "highlighted"}>
                             <Link to="/">FULL STACK</Link>
                         </div>
-                        <div>
+                        <div className={location.pathname === "/voiceover" && "highlighted"}>
                             <Link to="/voiceover">VOICEOVER</Link>
                         </div>
-                        <div>
+                        <div className={location.pathname === "/design" && "highlighted"}>
                             <Link to="/design">DESIGN</Link>
                         </div>
                     </div>
