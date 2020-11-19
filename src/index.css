@@ -12,6 +12,11 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+/* controversial below? Maybe remove */
+body {
+    /* overflow: hidden; */
+    overflow: hidden;
+  }
 
 /* Link information */
 a:link {
@@ -30,7 +35,6 @@ a:active {
     color: var(--white);
     text-decoration: none;
 }
-
 
 /* Header Classes */
 .bodyData {
@@ -82,9 +86,10 @@ a:active {
     }
     
     .info a:hover {
-        transition: 150ms ease 100ms;
-        border-bottom: 3px solid var(--accent);
-        border-radius: 0px 0px 1.5px 1.5px;
+        transition: 150ms ease 150ms;
+        color: var(--accent);
+        /* border-bottom: 3px solid var(--accent);
+        border-radius: 0px 0px 1.5px 1.5px; */
         
     }
 
@@ -163,7 +168,8 @@ a:active {
 
 .imageTest {
     /* need width to be responsive */
-    width: 100%;
+    width: 33%;
+    height: 33%;
     display: flex;
     justify-content: space-evenly;
 }

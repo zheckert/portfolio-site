@@ -9,7 +9,6 @@ import { Voiceover } from "./Voiceover"
 
 //images
 
-
 //note: I put the following in header and it broke everything to heck: import { logo, name, linkedIn, gitHub, arrow } from "./index" gotta figure that out
 import { logo } from "./other/logo.svg"
 import { name } from "./other/name2.svg"
