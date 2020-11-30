@@ -1,11 +1,11 @@
 import React from "react"
-import testImg from "./other/test-img.jpg"
 
-export const Images = () => {
+
+export const Images = (props) => {
     return(
         <div className="bodyContentClass">
             <div>
-                <img className="imageTest" src={testImg} alt="This is just a test"/>
+                <img className="imageTest" src={props.src} alt="This is just a test"/>
             </div>
         </div>
     )

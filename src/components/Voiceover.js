@@ -1,29 +1,35 @@
 import React from "react"
-import { BodyContent } from "./BodyContent"
+import { Images } from "./Images"
 
 export const Voiceover = () => {
     return(
-        <div className="fullPage">
-            <div className="row">
+        <div>
+          <div className="fullPage">
+            <div>
+              <div className="row">
                 <div className="column">
-                    <BodyContent 
-                        title={"VO TEST LOL LOL LOL"}
-                        bodyText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
-                    />
+                  <Images />
                 </div>
                 <div className="column">
-                    <BodyContent 
-                        title={"Weapon Randomizer"}
-                        bodyText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
-                    />
+                  <Images />
                 </div>
                 <div className="column">
-                    <BodyContent 
-                        title={"Weapon Randomizer"}
-                        bodyText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
-                    />
+                  <Images />
                 </div>
+              </div>
             </div>
+                <div className="row">
+                <div className="column">
+                    <Images />
+                </div>
+                <div className="column">
+                    <Images />
+                </div>
+                <div className="column">
+                    <Images />
+                </div>
+                </div>
+          </div>
         </div>
     )
 }
