@@ -3,7 +3,7 @@ import { BodyContent } from "./BodyContent"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import testImg from "./other/test-img.jpg"
+// import testImg from "./other/test-img.jpg"
 
  
 export const Dev = () => {
@@ -19,7 +19,7 @@ export const Dev = () => {
 
       return (
         <Slider {...settings}>
-          <div>
+          {/* <div>
             <img className="imageTest" src={testImg} alt="This is just a test"/>
           </div>
           <div>
@@ -36,7 +36,7 @@ export const Dev = () => {
           </div>
           <div>
             <img className="imageTest" src={testImg} alt="This is just a test"/>
-          </div>
+          </div> */}
         </Slider>
       )
 }

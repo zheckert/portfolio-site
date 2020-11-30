@@ -145,6 +145,10 @@ a:active {
 
 /* Body Classes */
 
+.design{
+    height: 600px;
+}
+
 .bodyContentClass {
     display: flex;
     flex-direction: column;

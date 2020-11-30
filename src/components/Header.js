@@ -1,11 +1,11 @@
 import React from "react"
 import { NavLink} from "react-router-dom"
 
-import logo from "./other/logo.svg"
-import name from "./other/name2.svg"
-import linkedIn from "./other/linkedin.svg"
-import gitHub from "./other/github.svg"
-import arrow from "./other/arrow.svg"
+import logo from "./images/header-images/logo.svg"
+import name from "./images/header-images/name2.svg"
+import linkedIn from "./images/header-images/linkedin.svg"
+import gitHub from "./images/header-images/github.svg"
+import arrow from "./images/header-images/arrow.svg"
 
 export const Header = () => {
 
