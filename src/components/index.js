@@ -7,6 +7,23 @@ import { Header } from "./Header"
 import { Voiceover } from "./Voiceover"
 
 //images
+import  a  from "./images/design-images/a.jpg"
+import  b  from "./images/design-images/b.jpg"
+import  c  from "./images/design-images/c.jpg"
+import  d  from "./images/design-images/d.jpg"
+import  e  from "./images/design-images/e.jpg"
+import  f  from "./images/design-images/f.jpg"
+import  g  from "./images/design-images/g.jpg"
+import  h  from "./images/design-images/h.jpg"
+import  i  from "./images/design-images/i.jpg"
+import  j  from "./images/design-images/j.jpg"
+import  k  from "./images/design-images/k.jpg"
+import  l  from "./images/design-images/l.jpg"
+import  m  from "./images/design-images/m.jpg"
+import  n  from "./images/design-images/n.jpg"
+import  o  from "./images/design-images/o.jpg"
+import  p  from "./images/design-images/p.jpg"
+import  q  from "./images/design-images/q.jpg"
 
 //note: I put the following in header and it broke everything to heck: import { logo, name, linkedIn, gitHub, arrow } from "./index" gotta figure that out
 import { logo } from "./images/header-images/logo.svg"
@@ -17,74 +34,93 @@ import { arrow } from "./images/header-images/arrow.svg"
 
 export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, arrow, }
 
+//data to display:
+
+// export const dev = [
+//     {
+//         src:,
+//         icons:,
+//         title:,
+//         text:,
+//     }
+// ]
+
+// export const voiceOver = [
+//     {
+//         src:,
+//         title:,
+
+//     }
+// ]
+
 export const designData = [
     {
         name: "Ladybug, Ladybug",
-        src: "./images/design-images/a.jpg"
+        src: a
     },
     {
         name: "Punchman",
-        src: "./images/design-images/b.jpg"
+        src: b
     },
     {
         name: "Attack",
-        src: "./images/design-images/c.jpg"
+        src: c
     },
     {
         name: "Gothic",
-        src: "./images/design-images/d.jpg"
+        src: d
     },
     {
         name: "Underwater Expedition",
-        src: "./images/design-images/e.jpg"
+        src: e
     },
     {
         name: "Skull",
-        src: "./images/design-images/f.jpg"
+        src: f
     },
     {
         name: "New York City",
-        src: "./images/design-images/g.jpg"
+        src: g
     },
     {
         name: "Big Sword with Text",
-        src: "./images/design-images/h.jpg"
+        src: h
     },
     {
         name: "Punching Demon",
-        src: "./images/design-images/i.jpg"
+        src: i
     },
     {
         name: "Red Devil Branding",
-        src: "./images/design-images/j.jpg"
+        src: j
     },
     {
         name: "Spooky King",
-        src: "./images/design-images/k.jpg"
+        src: k
     },
     {
         name: "Rock",
-        src: "/images/design-images/l.jpg"
+        src: l
     },
     {
         name: "Skull Squat EP",
-        src: "./images/design-images/m.jpg"
+        src: m
     },
     {
         name: "Collection of Sketches 1",
-        src: "./images/design-images/n.jpg"
+        src: n
     },
     {
         name: "Nice Shoes",
-        src: "./images/design-images/o.jpg"
+        src: o
     },
     {
         name: "Hearts Cape",
-        src: "./images/design-images/p.jpg"
+        src: p
     },
     {
         name: "Collection of Sketches 2",
-        src: "./images/design-images/q.jpg"
+        src: q
     },
 
 ]
