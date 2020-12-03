@@ -1,35 +1,15 @@
 import React from "react"
-import { Images } from "./Images"
+import { VoiceoverProjects } from "./VoiceoverProjects"
+import  { voiceoverData } from "./index"
 
 export const Voiceover = () => {
-    return(
-        <div>
-          <div className="fullPage">
-            <div>
-              <div className="row">
-                <div className="column">
-                  <Images />
-                </div>
-                <div className="column">
-                  <Images />
-                </div>
-                <div className="column">
-                  <Images />
-                </div>
-              </div>
-            </div>
-                <div className="row">
-                <div className="column">
-                    <Images />
-                </div>
-                <div className="column">
-                    <Images />
-                </div>
-                <div className="column">
-                    <Images />
-                </div>
-                </div>
-          </div>
-        </div>
-    )
+  const voiceoverDisplay =  voiceoverData.map((design, i) => <VoiceoverProjects key={i}  src={design.src}/>)
+
+  return(
+    <div className="center">
+      <div className="grid">
+        {voiceoverDisplay}
+      </div>   
+    </div>
+  )
 }

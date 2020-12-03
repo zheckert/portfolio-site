@@ -81,11 +81,8 @@ a:active {
     }
     
     .info a:hover {
-        transition: 150ms ease 150ms;
-        color: var(--accent);
-        /* border-bottom: 3px solid var(--accent);
-        border-radius: 0px 0px 1.5px 1.5px; */
-        
+        transition: 200ms ease 150ms;
+        color: var(--accent);        
     }
 
 .info a.highlighted {
@@ -144,7 +141,7 @@ a:active {
     display: grid;
     grid-gap: 10px;
     width: 85vw;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr
 }
 
 /* Footer Classes */
@@ -152,18 +149,12 @@ a:active {
     display: flex;
     justify-content: center;
     padding: 10px 0px 10px 0px;
-    margin: 2% 0px 2% 0px
+    margin: 2% 0px 2% 0px;
+    font-weight: 300;
 }
 
 .imageStyle {
     width: 100%;
-    object-fit: cover;
-}
-
-.imageStyle:hover {
-    object-fit: contain;
-    transition-duration: 400ms;
-    transform: scale(.75);
 }
 
 .center {
@@ -175,12 +166,3 @@ a:active {
     display: flex;
     justify-content: center;
 }
-
-.centerAlt:hover .imageStyle {
-    object-fit: contain;
-    transition-duration: 400ms;
-    transform: scale(.75);
-}
-
-/* https://css-tricks.com/different-transitions-for-hover-on-hover-off/
-https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */

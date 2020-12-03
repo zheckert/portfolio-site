@@ -6,7 +6,7 @@ import  { designData } from "./index"
 
 export const Design = () => {
 
-    const designDisplay =  designData.map((design, i) => <Images src={design.src} alt={design.name} key={i}/>)
+    const designDisplay =  designData.map((design, i) => <Images key={i}  src={design.src} alt={design.name}/>)
 
     return(
       <div className="center">
@@ -14,6 +14,5 @@ export const Design = () => {
           {designDisplay}
         </div>   
       </div>
-          
     )
 }

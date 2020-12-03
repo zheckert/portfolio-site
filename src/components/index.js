@@ -7,6 +7,12 @@ import { Header } from "./Header"
 import { Voiceover } from "./Voiceover"
 
 //images
+
+//dev
+import randomizer from "./images/dev-images/randomizer.jpg"
+import shortener from "./images/dev-images/shortener.jpg"
+
+//design
 import  a  from "./images/design-images/a.jpg"
 import  b  from "./images/design-images/b.jpg"
 import  c  from "./images/design-images/c.jpg"
@@ -25,7 +31,7 @@ import  o  from "./images/design-images/o.jpg"
 import  p  from "./images/design-images/p.jpg"
 import  q  from "./images/design-images/q.jpg"
 
-//note: I put the following in header and it broke everything to heck: import { logo, name, linkedIn, gitHub, arrow } from "./index" gotta figure that out
+//header images
 import { logo } from "./images/header-images/logo.svg"
 import { name } from "./images/header-images/name2.svg"
 import { linkedIn } from "./images/header-images/linkedin.svg"
@@ -36,28 +42,81 @@ export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, a
 
 //data to display:
 
-// export const dev = [
-//     {
-//         src: image,
-//         icons: stuff,
-//         title: "URL Shortener in React",
-//         text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML.",
-//     },
-//     {
-//         src:image ,
-//         icons: stuff,
-//         title: "Weapon Randomizer",
-//         text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
-//     },
-// ]
+export const devData = [
+    {
+        src: shortener,
+        // alttext needed for display images
+        // icons: stuff,
+        title: "URL Shortener in React",
+        text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML.",
+    },
+    {
+        src: randomizer,
+        // alttext needed for display images
+        // icons: stuff,
+        title: "Weapon Randomizer",
+        text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
+    },
+]
 
-// export const voiceOver = [
-//     {
-//         src:,
-//         title:,
-
-//     }
-// ]
+//figure this garbage out! https://support.mozilla.org/en-US/kb/xframe-neterror-page?as=u&utm_source=inproduct
+export const voiceoverData = [
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    {
+        src: "https://youtu.be/yXdxRuzha6A",
+    },
+    
+]
 
 export const designData = [
     {

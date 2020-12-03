@@ -1,27 +1,17 @@
 import React from "react"
-import { Images } from "./Images"
-// import testImg from "./other/test-img.jpg"
-//use maps to go through arrays of data? That way it's not hardcoded
- 
+import { DevProjects } from "./DevProjects"
+import  { devData } from "./index"
+
 export const Dev = () => {
 
-      return (
-        <div>
-          <div className="fullPage">
-            <div>
-                <div className="row">
-                  <div className="column">
-                      <Images />
-                  </div>
-                  <div className="column">
-                      <Images />
-                  </div>
-                  <div className="column">
-                      <Images />
-                  </div>
-                </div>
-            </div>
-            </div>
-          </div>
-      )
+  const devDisplay =  devData.map((dev, i) => <DevProjects key={i} src={dev.src} alt={dev.name} title={dev.title} text={dev.text}/>)
+
+  return(
+    <div className="center">
+      <div className="grid">
+        {devDisplay}
+      </div>   
+    </div>
+        
+  )
 }
