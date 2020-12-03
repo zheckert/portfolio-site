@@ -38,11 +38,17 @@ export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, a
 
 // export const dev = [
 //     {
-//         src:,
-//         icons:,
-//         title:,
-//         text:,
-//     }
+//         src: image,
+//         icons: stuff,
+//         title: "URL Shortener in React",
+//         text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML.",
+//     },
+//     {
+//         src:image ,
+//         icons: stuff,
+//         title: "Weapon Randomizer",
+//         text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
+//     },
 // ]
 
 // export const voiceOver = [
