@@ -9,6 +9,9 @@ import { Voiceover } from "./Voiceover"
 //images
 
 //dev
+
+//use an image of the project, possibly link to codepen? https://blog.codepen.io/documentation/embedded-pens/
+
 import randomizer from "./images/dev-images/randomizer.jpg"
 import shortener from "./images/dev-images/shortener.jpg"
 
@@ -59,64 +62,73 @@ export const devData = [
     },
 ]
 
-//figure this garbage out! https://support.mozilla.org/en-US/kb/xframe-neterror-page?as=u&utm_source=inproduct
+//width needs to be fixed. and height. we need to take up more space. thank you
 export const voiceoverData = [
     {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
+        src: "https://www.youtube.com/embed/yXdxRuzha6A",
+        title: "Cabinet Room",
+        width: "100%",
+        height: "100%",
+        frameborder: 0,
+        allow: "encrypted-media",
+        allowfullscreen: "allowfullscreen"
+    }, 
     {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
+        src: "https://youtube.com/embed/YdAYxLzzy2c",
+        title: "Vivint Solar",
+        width: "100%",
+        height: "100%",
+        frameborder: 0,
+        allow: "encrypted-media",
+        allowfullscreen: "allowfullscreen"
+    }, 
     {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
+        src: "https://www.youtube.com/embed/VYKzReGIbHE",
+        title: "Buyer's Journey",
+        width: "100%",
+        height: "100%",
+        frameborder: 0,
+        allow: "encrypted-media",
+        allowfullscreen: "allowfullscreen"
+    }, 
     {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
+        src: "https://www.youtube.com/embed/nYDmeE4heE8",
+        title: "Brand Building Rennaisance",
+        width: "100%",
+        height: "100%",
+        frameborder: 0,
+        allow: "encrypted-media",
+        allowfullscreen: "allowfullscreen"
+    }, 
     {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
+        src: "https://www.youtube.com/embed/4czS8WbCXdo",
+        title: "Job of a Billboard",
+        width: "100%",
+        height: "100%",
+        frameborder: 0,
+        allow: "encrypted-media",
+        allowfullscreen: "allowfullscreen"
+    }, 
     {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
+        src: "https://www.youtube.com/embed/21rmOvNbwjo",
+        title: "Brand Building Analysis",
+        width: "100%",
+        height: "100%",
+        frameborder: 0,
+        allow: "encrypted-media",
+        allowfullscreen: "allowfullscreen"
+    }, 
     {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    {
-        src: "https://youtu.be/yXdxRuzha6A",
-    },
-    
+        src: "https://www.youtube.com/embed/7kTx3lm6Qj0",
+        title: "Name Shark",
+        width: "100%",
+        height: "100%",
+        frameborder: 0,
+        allow: "encrypted-media",
+        allowfullscreen: "allowfullscreen"
+    }, 
 ]
+
 
 export const designData = [
     {

@@ -162,7 +162,14 @@ a:active {
     justify-content: center;
 }
 
-.centerAlt {
+.centerAltImage {
     display: flex;
     justify-content: center;
 }
+
+.centerAlt {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
