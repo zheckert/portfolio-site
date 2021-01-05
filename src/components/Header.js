@@ -7,6 +7,8 @@ import linkedIn from "./images/header-images/linkedin.svg"
 import gitHub from "./images/header-images/github.svg"
 import arrow from "./images/header-images/arrow.svg"
 
+import resume from "./images/Zach-Heckert-Resume-2020.pdf"
+
 export const Header = () => {
 
     return(
@@ -27,7 +29,7 @@ export const Header = () => {
                             <a href="tel:18013195001:">+1-801-319-5001</a>
                         </div>
                         <div>
-                            <img className="iconAlign" height="20"src={arrow} alt="Download arrow"/>
+                            <a href={resume} download="zach-heckert-resume"><img className="iconAlign" height="20" src={arrow} alt="Download arrow"/></a>
                         </div>
                         <div>
                             <a href="https://www.linkedin.com/in/zachheckert/" rel="noopener noreferrer" target="_blank"><img className="iconAlign" height="20"src={linkedIn} alt="GitHub icon"/></a>

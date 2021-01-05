@@ -51,6 +51,21 @@ export const devData = [
         // alttext needed for display images
         // icons: stuff,
         title: "URL Shortener in React",
+        // <UPDATE ME LATER!> https://url-shortener-zach.netlify.app/
+        text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML.",
+    },
+    {
+        src: randomizer,
+        // alttext needed for display images
+        // icons: stuff,
+        title: "Weapon Randomizer",
+        text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
+    },
+    {
+        src: shortener,
+        // alttext needed for display images
+        // icons: stuff,
+        title: "URL Shortener in React",
         text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML.",
     },
     {
