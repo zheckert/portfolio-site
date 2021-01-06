@@ -7,7 +7,7 @@ import linkedIn from "./images/header-images/linkedin.svg"
 import gitHub from "./images/header-images/github.svg"
 import arrow from "./images/header-images/arrow.svg"
 
-import resume from "./images/Zach-Heckert-Resume-2020.pdf"
+import resume from "./images/zach-heckert-resume.pdf"
 
 export const Header = () => {
 
@@ -19,7 +19,7 @@ export const Header = () => {
                 </div>
                 <div className="notLogo">
                     <div className="nameBackground">
-                        <img className="center" height="50px" src={name} alt="Name"/>
+                        <img className="nameSize"src={name} alt="Name"/>
                     </div>
                     <div className="info-alt">
                         <div>

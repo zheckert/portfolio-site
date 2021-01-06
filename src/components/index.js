@@ -41,7 +41,12 @@ import { linkedIn } from "./images/header-images/linkedin.svg"
 import { gitHub } from "./images/header-images/github.svg"
 import { arrow } from "./images/header-images/arrow.svg"
 
-export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, arrow, }
+//audio files
+import { commercial } from "./audio/zach-heckert-commercial-demo.mp3"
+import { narrative } from "./audio/zach-heckert-narrative-demo.mp3"
+
+export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, arrow, commercial, narrative }
+
 
 //data to display:
 
@@ -78,6 +83,10 @@ export const devData = [
 ]
 
 //width needs to be fixed. and height. we need to take up more space. thank you
+//I don't know if the above has been fixed, but:
+//audio files:
+
+
 export const voiceoverData = [
     {
         src: "https://www.youtube.com/embed/yXdxRuzha6A",

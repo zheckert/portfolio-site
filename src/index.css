@@ -120,7 +120,6 @@ a:active {
 
 .nameBackground {
     background-color: var(--med);
-    margin: 0;
     padding: 7px;
     border-radius: 15px 2px 2px 2px;
 }
@@ -157,9 +156,25 @@ a:active {
     width: 100%;
 }
 
+.nameSize {
+    height: 50px
+}
+
 .center {
     display: flex;
     justify-content: center;
+    
+}
+
+/* Misc Classes */
+.centerAltVo {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.figureClass {
+    margin: 0px 5px 0px 5px;
 }
 
 .centerAltImage {
@@ -173,3 +188,14 @@ a:active {
     height: 350px;
 }
 
+/* maybe trip this at around 1430? Test plz. Just updated a bit. Looks slightly jank on ipad. Take a look at that?*/
+@media screen and (max-width: 768px){
+    .logo { display: none; }
+    .nameSize { height: 35px }
+    .centerAlt { height: 150px}
+    .centerAltVo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
