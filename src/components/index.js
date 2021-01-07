@@ -82,11 +82,6 @@ export const devData = [
     },
 ]
 
-//width needs to be fixed. and height. we need to take up more space. thank you
-//I don't know if the above has been fixed, but:
-//audio files:
-
-
 export const voiceoverData = [
     {
         src: "https://www.youtube.com/embed/yXdxRuzha6A",
@@ -152,7 +147,6 @@ export const voiceoverData = [
         allowFullScreen: "allowFullScreen"
     }, 
 ]
-
 
 export const designData = [
     {

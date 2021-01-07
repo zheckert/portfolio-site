@@ -1,10 +1,10 @@
 import React from "react"
 import { VoiceoverProjects } from "./VoiceoverProjects"
 
-import  { commercial } from "./index"
-import  { narrative } from "./index"
-
 import  { voiceoverData } from "./index"
+
+import commercial from "./audio/zach-heckert-commercial-demo.mp3"
+import narrative from "./audio/zach-heckert-narrative-demo.mp3"
 
 export const Voiceover = () => {
   const voiceoverDisplay =  voiceoverData.map((voiceover, i) => 
@@ -25,20 +25,22 @@ export const Voiceover = () => {
     <div className="centerAltVo">
         <figure className="figureClass">
           <figcaption>Commercial Demo Reel</figcaption>
-            <audio
-              controls
-              src={commercial}>
-                Your browser does not support the
-                <code>audio</code> element.
+              <audio
+                controls
+                src={commercial}
+              >
+              Your browser does not support the
+              <code>audio</code> element.
             </audio>
         </figure>
         <figure className="figureClass">
           <figcaption>Narrative Demo Reel</figcaption>
             <audio
               controls
-              src={narrative}>
-                Your browser does not support the
-                <code>audio</code> element.
+              src={narrative}
+            >
+              Your browser does not support the
+              <code>audio</code> element.
             </audio>
         </figure>
     </div>
