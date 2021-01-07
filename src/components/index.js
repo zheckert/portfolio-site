@@ -95,7 +95,7 @@ export const voiceoverData = [
         height: "100%",
         frameborder: 0,
         allow: "encrypted-media",
-        allowfullscreen: "allowfullscreen"
+        allowFullScreen: "allowFullScreen"
     }, 
     {
         src: "https://youtube.com/embed/YdAYxLzzy2c",
@@ -104,7 +104,7 @@ export const voiceoverData = [
         height: "100%",
         frameborder: 0,
         allow: "encrypted-media",
-        allowfullscreen: "allowfullscreen"
+        allowFullScreen: "allowFullScreen"
     }, 
     {
         src: "https://www.youtube.com/embed/VYKzReGIbHE",
@@ -113,7 +113,7 @@ export const voiceoverData = [
         height: "100%",
         frameborder: 0,
         allow: "encrypted-media",
-        allowfullscreen: "allowfullscreen"
+        allowFullScreen: "allowFullScreen"
     }, 
     {
         src: "https://www.youtube.com/embed/nYDmeE4heE8",
@@ -122,7 +122,7 @@ export const voiceoverData = [
         height: "100%",
         frameborder: 0,
         allow: "encrypted-media",
-        allowfullscreen: "allowfullscreen"
+        allowFullScreen: "allowFullScreen"
     }, 
     {
         src: "https://www.youtube.com/embed/4czS8WbCXdo",
@@ -131,7 +131,7 @@ export const voiceoverData = [
         height: "100%",
         frameborder: 0,
         allow: "encrypted-media",
-        allowfullscreen: "allowfullscreen"
+        allowFullScreen: "allowFullScreen"
     }, 
     {
         src: "https://www.youtube.com/embed/21rmOvNbwjo",
@@ -140,7 +140,7 @@ export const voiceoverData = [
         height: "100%",
         frameborder: 0,
         allow: "encrypted-media",
-        allowfullscreen: "allowfullscreen"
+        allowFullScreen: "allowFullScreen"
     }, 
     {
         src: "https://www.youtube.com/embed/7kTx3lm6Qj0",
@@ -149,7 +149,7 @@ export const voiceoverData = [
         height: "100%",
         frameborder: 0,
         allow: "encrypted-media",
-        allowfullscreen: "allowfullscreen"
+        allowFullScreen: "allowFullScreen"
     }, 
 ]
 

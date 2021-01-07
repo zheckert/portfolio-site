@@ -6,9 +6,9 @@ export const VoiceoverProjects = (props) => {
             <iframe 
                 src={props.src} 
                 title={props.title}
-                frameborder={props.frameborder} 
+                frameBorder={props.frameborder} 
                 allow={props.allow}
-                allowfullscreen={props.allowfullscreen}
+                allowFullScreen={props.allowFullScreen}
                 width={props.width}
                 height={props.height}
             />

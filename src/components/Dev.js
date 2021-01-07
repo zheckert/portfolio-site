@@ -11,7 +11,6 @@ export const Dev = () => {
       <div className="grid">
         {devDisplay}
       </div>   
-    </div>
-        
+    </div>    
   )
 }
