@@ -1,7 +1,5 @@
 import React from "react"
 
-//https://url-shortener-zach.netlify.app/
-
 export const DevProjects = (props) => {
     return(
         <>
@@ -9,6 +7,7 @@ export const DevProjects = (props) => {
             <img className="imageStyle" src={props.src} alt={props.alt}/>
             <h3>{props.title}</h3>
             <p>{props.text}</p>
+            <p>See the project <a href={props.url}>HERE</a></p>
         </div>
         </>
     )

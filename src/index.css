@@ -188,7 +188,7 @@ a:active {
     height: 350px;
 }
 
-/* maybe trip this at around 1430? Test plz. Just updated a bit. Looks slightly jank on ipad. Take a look at that?*/
+/* maybe trip this at around 1430? Test plz. Just updated a bit. Looks slightly jank on ipad. Take a look at that? ALSO- Nathan suggested using MUI - https://material-ui.com/customization/breakpoints/*/
 @media screen and (max-width: 768px){
     .logo { display: none; }
     .nameSize { height: 35px }

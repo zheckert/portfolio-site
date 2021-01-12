@@ -50,19 +50,24 @@ export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, a
 
 //data to display:
 
+//REPLACE GITHUB LINKS ASAP!
+//MAKE LINKS NOT STUPID DOWN HERE! ARGH
+
 export const devData = [
     {
         src: shortener,
         // alttext needed for display images
         // icons: stuff,
+        url: "https://url-shortener-zach.netlify.app/",
         title: "URL Shortener in React",
         // <UPDATE ME LATER!> https://url-shortener-zach.netlify.app/
-        text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML.",
+        text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML."
     },
     {
         src: randomizer,
         // alttext needed for display images
         // icons: stuff,
+        url: "https://github.com/zheckert/legendary-weapon-generator",
         title: "Weapon Randomizer",
         text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
     },
@@ -70,16 +75,18 @@ export const devData = [
         src: shortener,
         // alttext needed for display images
         // icons: stuff,
-        title: "URL Shortener in React",
-        text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML.",
+        url: "https://github.com/zheckert/to-do",
+        title: "To-do List in React",
+        text: "This is a full-stack project to-do list.",
     },
-    {
-        src: randomizer,
-        // alttext needed for display images
-        // icons: stuff,
-        title: "Weapon Randomizer",
-        text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
-    },
+    // {
+    //     src: randomizer,
+    //     // alttext needed for display images
+    //     // icons: stuff,
+    //     url: "https://url-shortener-zach.netlify.app/",
+    //     title: "Weapon Randomizer",
+    //     text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
+    // },
 ]
 
 export const voiceoverData = [
