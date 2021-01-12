@@ -143,6 +143,28 @@ a:active {
     grid-template-columns: 1fr 1fr 1fr
 }
 
+.devGrid{
+    display: grid;
+    grid-gap: 10px;
+    width: 85vw;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.devGrid a:link {
+    color: var(--accent);
+    padding: 3px;
+    text-decoration: none;
+}
+.devGrid a:visited {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.devGrid a:hover {
+    transition: 200ms ease 150ms;
+    color: var(--accent);        
+}
+
 /* Footer Classes */
 .footerData {
     display: flex;

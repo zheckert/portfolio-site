@@ -4,11 +4,11 @@ import  { devData } from "./index"
 
 export const Dev = () => {
 
-  const devDisplay =  devData.map((dev, i) => <DevProjects key={i} src={dev.src} alt={dev.name} title={dev.title} text={dev.text}/>)
+  const devDisplay =  devData.map((dev, i) => <DevProjects key={i} src={dev.src} url={dev.url} alt={dev.name} title={dev.title} text={dev.text}/>)
 
   return(
     <div className="center">
-      <div className="grid">
+      <div className="devGrid">
         {devDisplay}
       </div>   
     </div>    

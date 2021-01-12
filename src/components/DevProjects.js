@@ -9,6 +9,9 @@ export const DevProjects = (props) => {
             <p>{props.text}</p>
             <p>See the project <a href={props.url}>HERE</a></p>
         </div>
+        {/* <div>
+            icons
+        </div> */}
         </>
     )
 }
