@@ -67,7 +67,7 @@ export const devData = [
         src: randomizer,
         // alttext needed for display images
         // icons: stuff,
-        url: "https://github.com/zheckert/legendary-weapon-generator",
+        url: "https://legendary-weapon-generator.herokuapp.com/",
         title: "Weapon Randomizer",
         text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
     },
@@ -75,7 +75,7 @@ export const devData = [
         src: shortener,
         // alttext needed for display images
         // icons: stuff,
-        url: "https://github.com/zheckert/to-do",
+        url: "https://zach-heckert-todo.herokuapp.com/",
         title: "To-do List in React",
         text: "This is a full-stack project to-do list.",
     },
