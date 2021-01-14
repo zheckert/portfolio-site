@@ -20,11 +20,11 @@ export const Header = () => {
         <div className="headerPosition">
             <div className="headerData">
                 <div className="logo">
-                    <img width="100%" height="100%" src={logo} alt="Logo"/>
+                    <NavLink to="/" exact={true}><img width="100%" height="100%" src={logo} alt="Logo"/></NavLink>
                 </div>
                 <div className="notLogo">
                     <div className="nameBackground">
-                        <img className="nameSize"src={name} alt="Name"/>
+                        <NavLink to="/" exact={true}><img className="nameSize"src={name} alt="Name"/></NavLink>
                     </div>
                     <div className="info-alt">
                         <div>
