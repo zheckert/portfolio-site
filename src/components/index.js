@@ -12,8 +12,9 @@ import { Voiceover } from "./Voiceover"
 
 //use an image of the project, possibly link to codepen? https://blog.codepen.io/documentation/embedded-pens/
 
-import randomizer from "./images/dev-images/randomizer.jpg"
-import shortener from "./images/dev-images/shortener.jpg"
+import randomizer from "./images/dev-images/weapon-generator.png"
+import shortener from "./images/dev-images/url.png"
+import todo from "./images/dev-images/notes.png"
 
 //design
 import  a  from "./images/design-images/a.jpg"
@@ -69,10 +70,10 @@ export const devData = [
         // icons: stuff,
         url: "https://legendary-weapon-generator.herokuapp.com/",
         title: "Weapon Randomizer",
-        text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
+        text: "es and deliver it as a string. Built in JavaScript.",
     },
     {
-        src: shortener,
+        src: todo,
         // alttext needed for display images
         // icons: stuff,
         url: "https://zach-heckert-todo.herokuapp.com/",

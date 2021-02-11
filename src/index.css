@@ -39,11 +39,11 @@ a:active {
     margin: 0px 15% 0px 15%
 }
 
-.center {
+/* .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .headerData {
     display: flex;
@@ -184,8 +184,7 @@ a:active {
 
 .center {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 /* Misc Classes */
@@ -210,7 +209,10 @@ a:active {
     height: 350px;
 }
 
-/* maybe trip this at around 1430? Test plz. Just updated a bit. Looks slightly jank on ipad. Take a look at that? ALSO- Nathan suggested using MUI - https://material-ui.com/customization/breakpoints/*/
+/* maybe trip this at around 1430? Test plz. Just updated a bit. Looks slightly jank on ipad. Take a look at that? ALSO- Nathan suggested using MUI - https://material-ui.com/customization/breakpoints/ or https://github.com/mui-org/material-ui/commits/next */
+
+/* Have all projects in rows instead of using columns */
+
 @media screen and (max-width: 768px){
     .logo { display: none; }
     .nameSize { height: 35px }
@@ -220,4 +222,38 @@ a:active {
         align-items: center;
         flex-direction: column;
     }
+}
+
+
+.testImg {
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.center2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.imageStyle2 {
+    width: 100%;
+    height: auto;
+}
+
+.imageBox {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
