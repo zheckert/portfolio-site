@@ -211,7 +211,7 @@ a:active {
 
 /* maybe trip this at around 1430? Test plz. Just updated a bit. Looks slightly jank on ipad. Take a look at that? ALSO- Nathan suggested using MUI - https://material-ui.com/customization/breakpoints/ or https://github.com/mui-org/material-ui/commits/next */
 
-/* Have all projects in rows instead of using columns */
+/* Have all projects in rows instead of using columns on mobile */
 
 @media screen and (max-width: 768px){
     .logo { display: none; }
