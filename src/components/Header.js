@@ -1,20 +1,16 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 
-//FONTAWESOME:
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import {FaRegFileAlt} from "react-icons/fa";
 
 import logo from "./images/header-images/logo.svg"
 import name from "./images/header-images/name2.svg"
 import linkedIn from "./images/header-images/linkedin.svg"
 import gitHub from "./images/header-images/github.svg"
-// import arrow from "./images/header-images/arrow.svg"
 
 import resume from "./images/zach-heckert-resume.pdf"
 
 export const Header = () => {
-    const download = <FontAwesomeIcon icon={faFileDownload} />
 
     return(
         <div className="headerPosition">
@@ -34,7 +30,7 @@ export const Header = () => {
                             <a href="tel:18013195001:">+1-801-319-5001</a>
                         </div>
                         <div>
-                            <a href={resume} download="zach-heckert-resume">{download}</a>
+                            <a href={resume} rel="noopener noreferrer" target="_blank" ><FaRegFileAlt className="iconAlign" title="resume" size="20px"/></a>
                         </div>
                         <div>
                             <a href="https://www.linkedin.com/in/zachheckert/" rel="noopener noreferrer" target="_blank"><img className="iconAlign" height="20"src={linkedIn} alt="GitHub icon"/></a>

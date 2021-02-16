@@ -12,8 +12,9 @@ import { Voiceover } from "./Voiceover"
 
 //use an image of the project, possibly link to codepen? https://blog.codepen.io/documentation/embedded-pens/
 
-import randomizer from "./images/dev-images/randomizer.jpg"
-import shortener from "./images/dev-images/shortener.jpg"
+import randomizer from "./images/dev-images/weapon-generator.png"
+import shortener from "./images/dev-images/url.png"
+import todo from "./images/dev-images/notes.png"
 
 //design
 import  a  from "./images/design-images/a.jpg"
@@ -50,43 +51,31 @@ export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, a
 
 //data to display:
 
-//REPLACE GITHUB LINKS ASAP!
-//MAKE LINKS NOT STUPID DOWN HERE! ARGH
-
 export const devData = [
     {
         src: shortener,
-        // alttext needed for display images
-        // icons: stuff,
+        // icons: iconOne, iconTwo, iconThree,
         url: "https://url-shortener-zach.netlify.app/",
+        github: "https://github.com/zheckert/assignments/tree/master/react-api-project",
         title: "URL Shortener in React",
-        // <UPDATE ME LATER!> https://url-shortener-zach.netlify.app/
         text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML."
     },
     {
         src: randomizer,
-        // alttext needed for display images
-        // icons: stuff,
+        // icons: iconOne, iconTwo, iconThree,
         url: "https://legendary-weapon-generator.herokuapp.com/",
+        github: "https://github.com/zheckert/legendary-weapon-generator",
         title: "Weapon Randomizer",
-        text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
+        text: "es and deliver it as a string. Built in JavaScript.",
     },
     {
-        src: shortener,
-        // alttext needed for display images
-        // icons: stuff,
+        src: todo,
+        // icons: iconOne, iconTwo, iconThree,
         url: "https://zach-heckert-todo.herokuapp.com/",
+        github: "https://github.com/zheckert/to-do",
         title: "To-do List in React",
         text: "This is a full-stack project to-do list.",
     },
-    // {
-    //     src: randomizer,
-    //     // alttext needed for display images
-    //     // icons: stuff,
-    //     url: "https://url-shortener-zach.netlify.app/",
-    //     title: "Weapon Randomizer",
-    //     text: "This function will create a goofy fantasy weapon from a pool of attributes and deliver it as a string. Built in JavaScript.",
-    // },
 ]
 
 export const voiceoverData = [
