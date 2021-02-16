@@ -51,14 +51,12 @@ export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, a
 
 //data to display:
 
-//REPLACE GITHUB LINKS ASAP!
-
 export const devData = [
     {
         src: shortener,
-        //what do I put here...
         // icons: iconOne, iconTwo, iconThree,
         url: "https://url-shortener-zach.netlify.app/",
+        github: "https://github.com/zheckert/assignments/tree/master/react-api-project",
         title: "URL Shortener in React",
         text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML."
     },
@@ -66,6 +64,7 @@ export const devData = [
         src: randomizer,
         // icons: iconOne, iconTwo, iconThree,
         url: "https://legendary-weapon-generator.herokuapp.com/",
+        github: "https://github.com/zheckert/legendary-weapon-generator",
         title: "Weapon Randomizer",
         text: "es and deliver it as a string. Built in JavaScript.",
     },
@@ -73,6 +72,7 @@ export const devData = [
         src: todo,
         // icons: iconOne, iconTwo, iconThree,
         url: "https://zach-heckert-todo.herokuapp.com/",
+        github: "https://github.com/zheckert/to-do",
         title: "To-do List in React",
         text: "This is a full-stack project to-do list.",
     },
