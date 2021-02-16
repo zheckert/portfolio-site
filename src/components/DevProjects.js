@@ -12,7 +12,7 @@ export const DevProjects = (props) => {
                 <div className="center2">
                     <div className="center"><h3>{props.title}</h3></div>
                     <div className="center"><p>{props.text}</p></div>
-                    <div className="center"><p>See the project on GitHub<a href={props.github} rel="noopener noreferrer" target="_blank">HERE</a></p></div>
+                    <div className="center"><p>See the project on GitHub <a href={props.github} rel="noopener noreferrer" target="_blank">HERE</a></p></div>
                 </div>
             </div>
         </>
