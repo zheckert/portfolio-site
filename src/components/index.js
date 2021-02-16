@@ -58,7 +58,7 @@ export const devData = [
         url: "https://url-shortener-zach.netlify.app/",
         github: "https://github.com/zheckert/assignments/tree/master/react-api-project",
         title: "URL Shortener in React",
-        text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML."
+        text: "This was an exercise in interacting with APIs. Built with React, JavaScript, CSS, and HTML. Upon pasting a link and submitting, the project will ensure that the URL is encoded properly and then process the link with GooLNK's API, returning a condensed version of your input, perfect for pasting links in spots with character limits (Amazon wishlist, I'm lookin' at you!)."
     },
     {
         src: randomizer,
@@ -66,7 +66,7 @@ export const devData = [
         url: "https://legendary-weapon-generator.herokuapp.com/",
         github: "https://github.com/zheckert/legendary-weapon-generator",
         title: "Weapon Randomizer",
-        text: "es and deliver it as a string. Built in JavaScript.",
+        text: "This is a simple randomizer that will output a randomized fantasy weapon. It pulls from a pool of terms based on whether or not a blunt or bladed archetype is generated. You can save your favorites to a public group currently, individual favorites are on the way. Made with React, Express.js, Node.js, and Mongoose.",
     },
     {
         src: todo,
@@ -74,7 +74,7 @@ export const devData = [
         url: "https://zach-heckert-todo.herokuapp.com/",
         github: "https://github.com/zheckert/to-do",
         title: "To-do List in React",
-        text: "This is a full-stack project to-do list.",
+        text: "This is a full-stack project to-do list, perfect for keeping track of all the things you keep forgetting. To-do forms and items are managed with React state. Made with React, Express.js, Node.js, and Mongoose.",
     },
 ]
 
