@@ -9,6 +9,7 @@ export const Dev = () => {
     key={i} 
     src={dev.src} 
     url={dev.url} 
+    github={dev.github}
     alt={dev.name} 
     title={dev.title} 
     text={dev.text}
