@@ -66,7 +66,7 @@ export const devData = [
         url: "https://legendary-weapon-generator.herokuapp.com/",
         github: "https://github.com/zheckert/legendary-weapon-generator",
         title: "Weapon Randomizer",
-        text: "This is a simple randomizer that will output a randomized fantasy weapon. It pulls from a pool of terms based on whether or not a blunt or bladed archetype is generated. You can save your favorites to a public group currently, individual favorites are on the way. Made with React, Express.js, Node.js, and Mongoose.",
+        text: "This is a simple randomizer that will output a randomized fantasy weapon. It pulls from a pool of terms based on whether or not a blunt or bladed archetype is generated. Currently, you can save your favorites to a public group, with logins for individual favorites on the way. Made with React, Express.js, Node.js, and Mongoose.",
     },
     {
         src: todo,
@@ -74,7 +74,7 @@ export const devData = [
         url: "https://zach-heckert-todo.herokuapp.com/",
         github: "https://github.com/zheckert/to-do",
         title: "To-do List in React",
-        text: "This is a full-stack project to-do list, perfect for keeping track of all the things you keep forgetting. To-do forms and items are managed with React state. Made with React, Express.js, Node.js, and Mongoose.",
+        text: "This is a full-stack project to-do list, perfect for keeping track of all the things you keep forgetting to do. To-do forms and items are managed with React state and stored in a MongoDB database. The edit aspect of the form reuses the initial submit form and a ternary operator. Made with React, Express.js, Node.js, and Mongoose.",
     },
 ]
 

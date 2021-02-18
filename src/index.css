@@ -262,3 +262,7 @@ flex-direction: column;
     border: 2px black solid;
     border-radius: 2px;
 }
+
+.txt {
+    font-weight: 300;
+}
