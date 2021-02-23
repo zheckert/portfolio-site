@@ -5,8 +5,8 @@ export const DevProjects = (props) => {
         <>
             <div className="outer">
                 <div className="border">
-                    <div className="imageBox">
-                        <a href={props.url} rel="noopener noreferrer" target="_blank"><img className="imageStyle2" src={props.src} alt={props.alt}/></a>
+                    <div className="devProjectImageBox">
+                        <a href={props.url} rel="noopener noreferrer" target="_blank"><img className="imageStyle" src={props.src} alt={props.alt}/></a>
                     </div>
                 </div>
                 <div className="center2">

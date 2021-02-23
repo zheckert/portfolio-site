@@ -23,7 +23,7 @@ export const Voiceover = () => {
   return(
     <>
     <div className="centerAltVo">
-        <figure className="figureClass">
+        <figure className="voPortfolioStyler">
           <figcaption>Commercial Demo Reel</figcaption>
               <audio
                 controls
@@ -33,7 +33,7 @@ export const Voiceover = () => {
               <code>audio</code> element.
             </audio>
         </figure>
-        <figure className="figureClass">
+        <figure className="voPortfolioStyler">
           <figcaption>Narrative Demo Reel</figcaption>
             <audio
               controls
