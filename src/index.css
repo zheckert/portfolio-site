@@ -170,10 +170,6 @@ a:active {
     font-weight: 300;
 }
 
-.imageStyle {
-    width: 100%;
-}
-
 .nameSize {
     height: 50px
 }
@@ -186,55 +182,9 @@ a:active {
 
 }
 
-/* Misc Classes */
-.centerAltVo {
-    display: flex;
-    justify-content: center;
-    margin: 5px 5px 5px 5px;
-}
+/* Page-specific Classes */
 
-.figureClass {
-    margin: 0px 5px 0px 5px;
-}
-
-.centerAltImage {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    
-}
-
-.centerAlt {
-    display: flex;
-    justify-content: center;
-    height: 350px;
-}
-
-/* maybe trip this at around 1430? Test plz. Just updated a bit. Looks slightly jank on ipad. Take a look at that? ALSO- Nathan suggested using MUI - https://material-ui.com/customization/breakpoints/ or https://github.com/mui-org/material-ui/commits/next */
-
-/* Have all projects in rows instead of using columns on mobile */
-
-@media screen and (max-width: 768px){
-    .logo { display: none; }
-    .nameSize { height: 35px }
-    .centerAlt { height: 150px}
-    .centerAltVo {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .devGrid {
-        grid-template-columns: 1fr;
-    }
-}
-
-
-.testImg {
-display: flex;
-justify-content: space-around;
-flex-direction: column;
-}
+/*dev*/
 
 .outer{
     display: flex;
@@ -249,12 +199,7 @@ flex-direction: column;
     margin: 5px;
 }
 
-.imageStyle2 {
-    width: 100%;
-    height: auto;
-}
-
-.imageBox {
+.devProjectImageBox {
     height: 300px;
     overflow: hidden;
     display: flex;
@@ -272,6 +217,58 @@ flex-direction: column;
     font-weight: 300;
     
 }
+
+/*vo*/
+.centerAltVo {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.voPortfolioStyler {
+    margin: 0px 5px 0px 5px;
+}
+
+/*design*/
+
+
+/* commenting out the below to see if it makes bugs for ios devices */
+.centerAltImage {
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start;
+    flex-direction: column; */
+}
+
+/*shared*/
+
+.centerAlt {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.imageStyle {
+    width: 100%;
+}
+
+/* responsive */
+
+@media screen and (max-width: 768px){
+    .logo { display: none; }
+    .nameSize { height: 35px }
+    .centerAlt { height: 150px}
+    .centerAltVo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .devGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*not sure if this is actually doing anything. it can't be trusted in the sligthest*/
 
 div {
     line-height: 1.6;
