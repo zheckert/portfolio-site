@@ -231,13 +231,12 @@ a:active {
 
 /*design*/
 
-
 /* commenting out the below to see if it makes bugs for ios devices */
 .centerAltImage {
     display: flex;
     justify-content: center;
-    /* align-items: flex-start;
-    flex-direction: column; */
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 /*shared*/
