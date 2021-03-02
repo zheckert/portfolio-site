@@ -8,6 +8,8 @@ import { Voiceover } from "./Voiceover"
 
 //images
 
+import logoPng from "/.images/header-images/logoPng.png"
+
 //dev
 
 //use an image of the project, possibly link to codepen? https://blog.codepen.io/documentation/embedded-pens/
@@ -46,7 +48,7 @@ import { arrow } from "./images/header-images/arrow.svg"
 import { commercial } from "./audio/zach-heckert-commercial-demo.mp3"
 import { narrative } from "./audio/zach-heckert-narrative-demo.mp3"
 
-export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, arrow, commercial, narrative }
+export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, arrow, commercial, narrative, logoPng }
 
 
 //data to display:
