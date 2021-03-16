@@ -8,7 +8,7 @@ import name from "./images/header-images/name2.svg"
 import linkedIn from "./images/header-images/linkedin.svg"
 import gitHub from "./images/header-images/github.svg"
 
-import resume from "./images/zach-heckert-resume.pdf"
+import resume from "./images/zach-heckert-resume1.pdf"
 
 export const Header = () => {
 
