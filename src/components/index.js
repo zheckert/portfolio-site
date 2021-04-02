@@ -55,7 +55,7 @@ export const devData = [
     {
         src: weather,
         // icons: iconOne, iconTwo, iconThree,
-        url: "https://url-shortener-zach.netlify.app/",
+        url: "https://zach-weather-app.netlify.app/",
         github: "https://github.com/zheckert/weather",
         title: "Simple Weather App",
         text: "This is a weather app that gives you some weather info for your desired location and a little forecast so you can make sure you bring an umbrella. Utilizes the API at weatherapi.com. Allows you to choose between Fahrenheit and Celcius on the fly, so this site doubles as a temperature conversion tool. Built with React, JavaScript, and Axios. Styled with Material-UI."
