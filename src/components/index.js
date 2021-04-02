@@ -11,7 +11,7 @@ import { Voiceover } from "./Voiceover"
 //dev
 
 //use an image of the project, possibly link to codepen? https://blog.codepen.io/documentation/embedded-pens/
-
+import weather from "./images/dev-images/weather.png"
 import randomizer from "./images/dev-images/weapon-generator.png"
 import shortener from "./images/dev-images/url.png"
 import todo from "./images/dev-images/notes.png"
@@ -53,6 +53,14 @@ export { Design, Dev, Footer, Header, Voiceover, logo, name, linkedIn, gitHub, a
 
 export const devData = [
     {
+        src: weather,
+        // icons: iconOne, iconTwo, iconThree,
+        url: "https://zach-weather-app.netlify.app/",
+        github: "https://github.com/zheckert/weather",
+        title: "Simple Weather App",
+        text: "This is a weather app that gives you some weather info for your desired location and a little forecast so you can make sure you bring an umbrella. Utilizes the API at weatherapi.com. Allows you to choose between Fahrenheit and Celcius on the fly, so this site doubles as a temperature conversion tool. Built with React, JavaScript, and Axios. Styled with Material-UI."
+    },
+    {
         src: shortener,
         // icons: iconOne, iconTwo, iconThree,
         url: "https://url-shortener-zach.netlify.app/",
@@ -76,6 +84,7 @@ export const devData = [
         title: "To-do List in React",
         text: "This is a full-stack project to-do list, perfect for keeping track of all the things you keep forgetting to do. To-do forms and items are managed with React state and stored in a MongoDB database. The edit aspect of the form reuses the initial submit form and a ternary operator. Made with React, Express.js, Node.js, and Mongoose.",
     },
+    
 ]
 
 export const voiceoverData = [
