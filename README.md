@@ -1,6 +1,6 @@
 # This is my portfolio site. 
 
-![picture of portfolio site](https://github.com/zheckert/weather/blob/main/githubScreen.png)
+![picture of portfolio site](https://github.com/zheckert/portfolio-site/blob/main/githubScreen.png)
 
 ### About
 
