@@ -1,7 +1,5 @@
 # This is my portfolio site. 
 
-![picture of portfolio site](https://github.com/zheckert/portfolio-site/blob/main/githubScreen.png)
-
 ### About
 
 I built everything in React.
