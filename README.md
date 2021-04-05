@@ -1,5 +1,7 @@
 # This is my portfolio site. 
 
+![picture of portfolio site](https://github.com/zheckert/weather/blob/main/githubScreen.png)
+
 ### About
 
 I built everything in React.
