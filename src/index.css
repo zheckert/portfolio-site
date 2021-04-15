@@ -135,14 +135,14 @@ a:active {
 .grid{
     display: grid;
     grid-gap: 10px;
-    width: 85vw;
+    width: 50vw;
     grid-template-columns: 1fr 1fr 1fr
 }
 
 .devGrid{
     display: grid;
     grid-gap: 10px;
-    width: 85vw;
+    width: 50vw;
     grid-template-columns: 1fr 1fr 1fr
 }
 
@@ -264,6 +264,12 @@ a:active {
     }
     .devGrid {
         grid-template-columns: 1fr;
+    }
+    .grid{
+        display: grid;
+        grid-gap: 10px;
+        width: 85vw;
+        grid-template-columns: 1fr
     }
 }
 
