@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom"
 import {FaRegFileAlt} from "react-icons/fa";
 
 import logo from "./images/header-images/logo.svg"
+//Maybe use this alternative someday to toggle on mouseover.
+// import logoAlt from "./images/header-images/logoAlt.svg"
 import name from "./images/header-images/name2.svg"
 import linkedIn from "./images/header-images/linkedin.svg"
 import gitHub from "./images/header-images/github.svg"
@@ -12,11 +14,12 @@ import resume from "./images/zach-heckert-resume.pdf"
 
 export const Header = () => {
 
+
     return(
         <div className="headerPosition">
             <div className="headerData">
                 <div className="logo">
-                    <NavLink to="/" exact={true}><img width="100%" height="100%" src={logo} alt="Logo"/></NavLink>
+                    <NavLink to="/" exact={true}> <img width="100%" height="100%" src={logo} alt="Logo"/></NavLink>
                 </div>
                 <div className="notLogo">
                     <div className="nameBackground">

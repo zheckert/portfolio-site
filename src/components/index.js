@@ -58,7 +58,7 @@ export const devData = [
         url: "https://zach-weather-app.netlify.app/",
         github: "https://github.com/zheckert/weather",
         title: "Simple Weather App",
-        text: "This is a weather app that gives you some weather info for your desired location and a little forecast so you can make sure you bring an umbrella. Utilizes the API at weatherapi.com. Allows you to choose between Fahrenheit and Celcius on the fly, so this site doubles as a temperature conversion tool. Built with React, JavaScript, and Axios. Styled with Material-UI."
+        text: "This is a weather app that gives you some weather info for your desired location and a little forecast so you can be sure to bring an umbrella. Utilizes the API at weatherapi.com. Allows you to choose between Fahrenheit and Celcius on the fly, so this site doubles as a temperature conversion tool (ha ha). Built with React, JavaScript, and Axios. Styled with Material-UI."
     },
     {
         src: shortener,
@@ -74,7 +74,7 @@ export const devData = [
         url: "https://legendary-weapon-generator.herokuapp.com/",
         github: "https://github.com/zheckert/legendary-weapon-generator",
         title: "Weapon Randomizer",
-        text: "This is a simple randomizer that will output a randomized fantasy weapon. It pulls from a pool of terms based on whether or not a blunt or bladed archetype is generated. Currently, you can save your favorites to a public group, with logins for individual favorites on the way. Made with React, Express.js, Node.js, and Mongoose.",
+        text: "This is a simple randomizer that will output a weird fantasy weapon. Using several ternary operators, it pulls from a pool of terms based on whether or not a blunt or bladed archetype is generated. Currently, you can save your favorites to a public group, with logins for individual favorites on the way. Made with React, Express.js, Node.js, and Mongoose.",
     },
     {
         src: todo,
