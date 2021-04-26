@@ -74,7 +74,7 @@ export const devData = [
         url: "https://legendary-weapon-generator.herokuapp.com/",
         github: "https://github.com/zheckert/legendary-weapon-generator",
         title: "Weapon Randomizer",
-        text: "This is a simple randomizer that will output a weird fantasy weapon. Using several ternary operators, it pulls from a pool of terms based on whether or not a blunt or bladed archetype is generated. Currently, you can save your favorites to a public group, with logins for individual favorites on the way. Made with React, Express.js, Node.js, and Mongoose.",
+        text: "This is a simple randomizer that will output a weird fantasy weapon. Using several ternary operators, it pulls from a pool of terms based on whether or not a blunt or bladed archetype is generated. In the newest iteration of the project, users interested in saving their favorites can create an account and login. Made with React, Express.js, Node.js, and Mongoose.",
     },
     {
         src: todo,
