@@ -1,7 +1,14 @@
 *{
   font-family: Roboto;
-  color: #282828
+  color: #282828;
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing: border-box; */
 }
+
+ /* body {
+  height: 100%;
+} */
 
 a:link { text-decoration: none; }
 
@@ -11,9 +18,27 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
-.styling {
+.content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /* display: grid;
+  place-items: center; */
+} 
+
+.elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+
+.organizer {
+  display:flex;
+  flex-direction: row;
+}
+
+/* flex-direction should be column for mobile views */
