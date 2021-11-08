@@ -3,11 +3,10 @@
   color: #282828;
   margin: 0px;
   padding: 0px;
-  /* box-sizing: border-box; */
 }
 
- /* body {
-  height: 100%;
+/* .copyright {
+  font-size: 75%;
 } */
 
 a:link { text-decoration: none; }
@@ -23,11 +22,6 @@ a:active { text-decoration: none; }
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* display: flex;
-  align-items: center;
-  justify-content: center;*/
-  /* display: grid;
-  place-items: center; */
 } 
 
 .elements {
@@ -41,4 +35,25 @@ a:active { text-decoration: none; }
   flex-direction: row;
 }
 
-/* flex-direction should be column for mobile views */
+.brandingMobile {
+  display: none
+}
+
+@media screen and (max-width: 768px){
+  .elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px
+  }
+  .spacer {
+    padding: 5px;
+  }
+  .brandingDesktop{
+    display: none;
+  }
+  .brandingMobile{
+    display: block;
+  }
+}
