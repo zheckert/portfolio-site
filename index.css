@@ -41,7 +41,7 @@ a:active { text-decoration: none; }
   text-align: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 881px){
   .elements {
     display: flex;
     flex-direction: column;
