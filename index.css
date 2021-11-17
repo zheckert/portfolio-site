@@ -1,0 +1,62 @@
+*{
+  font-family: Roboto;
+  color: #282828;
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+.elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.organizer {
+  display:flex;
+  flex-direction: row;
+}
+
+.brandingMobile {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 881px){
+  .elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+  }
+  .spacer {
+    padding: 5px;
+  }
+  .brandingDesktop{
+    display: none;
+  }
+  .brandingMobile{
+    display: block;
+  }
+}
+
