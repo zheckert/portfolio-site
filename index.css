@@ -27,16 +27,14 @@ a:active { text-decoration: none; }
   justify-content: space-around;
 }
 
-.contentStyler {
-  display: flex;
-  flex-direction: row;
-}
-
 .elementsSpacer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  margin: 10%;
 }
+
+/* .spacer {
+} */
 
 .brandingMobile {
   display: none;
@@ -45,7 +43,6 @@ a:active { text-decoration: none; }
 .date {
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 @media screen and (max-width: 881px){
