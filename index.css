@@ -1,6 +1,12 @@
+:root {
+  --primary: #282828;
+  --secondary: #E04887;
+  --tertiary: #653BFF;
+}
+
 *{
   font-family: Roboto;
-  color: #282828;
+  color: var(--primary);
   margin: 0px;
   padding: 0px;
 }
