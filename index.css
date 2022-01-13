@@ -4,9 +4,13 @@
   --tertiary: #653BFF;
 }
 
+.color-fill {
+  fill: var(--tertiary);
+}
+
 *{
   font-family: Roboto;
-  color: var(--primary);
+  color: var(--tertiary);
   margin: 0px;
   padding: 0px;
 }
