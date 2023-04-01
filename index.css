@@ -39,37 +39,9 @@ a:active { text-decoration: none; }
   font-size: 1.4em;
 }
 
-.brandingMobile {
-  display: none;
-}
-
 .date {
   display: flex;
   align-items: center;
-}
-
-/* @media screen and (max-width: 881px){
-  .elementsSpacer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10%;
-    padding: 25px;
-  }
-  .spacer {
-    padding: 5px;
-  }
-  .brandingDesktop{
-    display: none;
-  }
-  .brandingMobile{
-    display: block;
-  }
-} */
-
-.branding {
-  width: 100%;
 }
 
 @media (max-width: 880px) {
@@ -84,13 +56,9 @@ a:active { text-decoration: none; }
   .spacer {
     padding: 5px;
   }
-  .branding {
-    height: 250px; /* Set the width to 50% when the viewport is 880px or less */
-  }
 }
 
 .branding svg {
   width: 100%;
   height: auto;
-  viewbox: 0 0 250 250; /* Set the viewbox to the desired dimensions */
 } 
