@@ -62,3 +62,7 @@ a:active { text-decoration: none; }
   width: 100%;
   height: auto;
 } 
+
+/* @media (prefers-color-scheme: dark){
+  classname: darkmode equivalent 
+ } add framework for dark mode*/
