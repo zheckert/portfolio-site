@@ -1,8 +1,21 @@
+:root {
+  --portfolio-primary: #282828;   
+  --portfolio-secondary: #fff; 
+}
+
+@media (prefers-color-scheme: dark){
+  :root {
+    --portfolio-primary: #fff;   
+    --portfolio-secondary: #282828; 
+  }
+ }
+ 
 *{
   font-family: Roboto;
-  color: #282828;
+  color: var(--portfolio-primary);
   margin: 0px;
   padding: 0px;
+  background-color: var(--portfolio-secondary);
 }
 
 a:link { text-decoration: none; }
