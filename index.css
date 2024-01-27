@@ -1,30 +1,30 @@
-:root {
-  --portfolio-primary: #282828;   
-  --portfolio-secondary: #fff; 
-}
-
-@media (prefers-color-scheme: dark){
-  :root {
-    --portfolio-primary: #fff;   
-    --portfolio-secondary: #282828; 
-  }
- }
- 
-*{
+* {
   font-family: Roboto;
-  color: var(--portfolio-primary);
   margin: 0px;
   padding: 0px;
-  background-color: var(--portfolio-secondary);
 }
 
-a:link { text-decoration: none; }
+:root {
+  --portfolio-primary: #282828;
+  --portfolio-secondary: #fff;
+  background-color: var(--portfolio-secondary);
+  color: var(--portfolio-primary);
+}
 
-a:visited { text-decoration: none; }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --portfolio-primary: #fff;
+    --portfolio-secondary: #282828;
+    background-color: var(--portfolio-secondary);
+    color: var(--portfolio-primary);
+  }
+}
 
-a:hover { text-decoration: none; }
-
-a:active { text-decoration: none; }
+a {
+  text-decoration: none;
+  color: var(--portfolio-primary);
+  transition: border-color 0.35s ease-out;
+}
 
 .center {
   position: absolute;
@@ -55,6 +55,7 @@ a:active { text-decoration: none; }
 .date {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 880px) {
@@ -89,7 +90,8 @@ a:active { text-decoration: none; }
 .dropdown .dropdown-content {
   position: absolute;
   top: 50%;
-  background-color: pink;
+  background-color: #fff;
+  color: var(--portfolio-primary);
   min-width: 175%;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 100000;
@@ -98,7 +100,8 @@ a:active { text-decoration: none; }
   transition: 0.35s ease-out;
 }
 
-.dropdown-content a {
+.dropdown .dropdown-content a {
+  color: #282828;
   padding: 12px 16px;
   display: block;
   text-decoration: none;
@@ -112,17 +115,19 @@ a:active { text-decoration: none; }
   opacity: 1;
 }
 
-.dropdown .db2 {
+.dropdown .dd2 {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0; opacity: 0;
   cursor: pointer;
   z-index: 10;
   display: none;
 }
-.dropdown:focus .db2 {
+
+.dropdown:focus .dd2 {
   display: inline-block;
 }
-.dropdown .db2:focus .dropdown-content {
+
+.dropdown .dd2:focus .dropdown-content {
   outline: none;
   visibility: hidden;
   opacity: 0;
