@@ -1,5 +1,6 @@
 * {
-  font-family: Roboto;
+  font-family: Arial, sans-serif;
+  /* font-size: 14px; */
   margin: 0px;
   padding: 0px;
 }
@@ -50,6 +51,14 @@ a {
 .spacer {
   padding: 0 12% 0 12%;
   font-size: 1.2em;
+}
+
+.footer-spacer {
+  padding: 0 2px;
+}
+
+.vert {
+  margin-top: 2.5px;
 }
 
 .date {

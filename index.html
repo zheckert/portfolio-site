@@ -19,7 +19,7 @@
     window.onload = theDate
     function theDate() {
       let date = new Date().getFullYear();
-      document.getElementById("footer").textContent = `©zach heckert ${date}`
+      document.getElementById("footer").textContent = date
     }
   </script> 
 </head>
@@ -78,7 +78,11 @@
         </div>
       </div>
     </div>
-    <div class="date" id="footer"></div>
+    <div class="date">
+      <span class="footer-spacer vert">©</span>
+      <span class="footer-spacer"> zach heckert</span>
+      <span class="footer-spacer" id="footer"></span>
+    </div>
     </div>
   </div>
 </body>
