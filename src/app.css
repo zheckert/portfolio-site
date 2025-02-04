@@ -1,0 +1,23 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --portfolio-primary: #282828;
+  --portfolio-secondary: #fff;
+  background-color: var(--portfolio-secondary);
+  color: var(--portfolio-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --portfolio-primary: #fff;
+    --portfolio-secondary: #282828;
+    background-color: var(--portfolio-secondary);
+    color: var(--portfolio-primary);
+  }
+}
+
+/* Rest of your CSS... */
