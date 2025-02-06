@@ -8,7 +8,6 @@
       <div class="branding">Branding!</div>
       <div class="nav-content">
         <div class="nav-links">
-          <a href="/" class="nav-item">projects</a>
           <a href="https://drive.google.com/file/d/1RDp8gO1ze-u2uvj1B0OSfGDPsuWWuiG1/view?usp=sharing" 
              class="nav-item" 
              rel="noopener noreferrer" 
