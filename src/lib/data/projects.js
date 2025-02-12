@@ -1,14 +1,26 @@
 export const projects = [
   {
-    title: "Mind Dump Blog",
-    tech: ["Svelte", "SvelteKit", "CSS"],
-    description:
-      "A minimalist blogging platform built with SvelteKit, featuring a clean design and responsive layout.",
+    title: "To-do List",
+    tech: ["React", "MongoDB", "Express", "Node"],
+    description: "Full-stack web app made with the MERN stack.",
     link: "https://mind-dump-2.netlify.app/",
   },
   {
     title: "Weather App",
-    tech: ["JavaScript", "Weather API", "CSS"],
+    tech: ["JavaScript", "Weather API"],
+    description:
+      "Real-time weather application providing current conditions and forecasts with a clean, intuitive interface.",
+    link: "https://zach-weather-app.netlify.app/",
+  },
+  {
+    title: "Weapon Generator",
+    tech: ["JavaScript", "Weather API"],
+    description: "Blurb",
+    link: "https://zach-svelte-weapon-generator.netlify.app/",
+  },
+  {
+    title: "Fetch Quest",
+    tech: ["SveltKit"],
     description:
       "Real-time weather application providing current conditions and forecasts with a clean, intuitive interface.",
     link: "https://zach-weather-app.netlify.app/",
