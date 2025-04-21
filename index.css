@@ -31,7 +31,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} 
+}
 
 .organizer {
   display: flex;
@@ -83,7 +83,7 @@ a {
 .branding svg {
   width: 100%;
   height: auto;
-} 
+}
 
 .dropdown {
   display: inline-block;
@@ -92,6 +92,7 @@ a {
 }
 
 .dropdown-button {
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -125,7 +126,11 @@ a {
 
 .dropdown .dd2 {
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0; opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
   cursor: pointer;
   z-index: 10;
   display: none;
